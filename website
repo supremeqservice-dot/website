@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appliance Repair — Same-Day Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Fast, reliable appliance repair. Same-day service, upfront pricing, and warranty-backed work. Call or book online." />
+  </head>
+
+  <body class="bg-slate-50 text-slate-900">
+    <!-- Top Bar -->
+    <div class="bg-slate-900 text-white">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
+        <p class="text-sm">
+          Licensed • Insured • Warranty Included
+        </p>
+        <div class="flex items-center gap-3 text-sm">
+          <span class="hidden sm:inline">Need help now?</span>
+          <a href="tel:+11234567890" class="rounded-full bg-white/10 px-3 py-1 font-medium hover:bg-white/15">
+            Call (123) 456-7890
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="#" class="flex items-center gap-2">
+          <div class="grid h-10 w-10 place-items-center rounded-xl bg-slate-900 text-white">
+            <span class="text-lg font-bold">AR</span>
+          </div>
+          <div class="leading-tight">
+            <div class="font-semibold">Appliance Repair</div>
+            <div class="text-xs text-slate-500">Fast • Local • Trusted</div>
+          </div>
+        </a>
+
+        <nav class="hidden items-center gap-6 text-sm md:flex">
+          <a href="#services" class="text-slate-600 hover:text-slate-900">Services</a>
+          <a href="#how" class="text-slate-600 hover:text-slate-900">How it works</a>
+          <a href="#reviews" class="text-slate-600 hover:text-slate-900">Reviews</a>
+          <a href="#faq" class="text-slate-600 hover:text-slate-900">FAQ</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="#booking" class="hidden rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50 sm:inline-flex">
+            Book Online
+          </a>
+          <a href="tel:+11234567890" class="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+            Call Now
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="https://images.unsplash.com/photo-1581578017423-89b4b09b6f7a?auto=format&fit=crop&w=2400&q=80"
+          alt="Technician repairing appliance"
+          class="h-full w-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/60 to-slate-950/20"></div>
+      </div>
+
+      <div class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+        <div class="grid items-center gap-10 lg:grid-cols-2">
+          <div class="text-white">
+            <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm">
+              <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+              Same-day appointments available
+            </div>
+
+            <h1 class="mt-5 text-4xl font-extrabold leading-tight sm:text-5xl">
+              Fast, reliable appliance repair—
+              <span class="text-slate-200">done right the first time.</span>
+            </h1>
+
+            <p class="mt-5 max-w-xl text-lg text-slate-200">
+              We fix refrigerators, washers, dryers, ovens, dishwashers, and more. Upfront pricing, friendly techs, and a warranty on parts & labor.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <a href="#booking" class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-base font-semibold text-slate-900 hover:bg-slate-100">
+                Get a Free Estimate
+              </a>
+              <a href="tel:+11234567890" class="inline-flex items-center justify-center rounded-full bg-white/10 px-6 py-3 text-base font-semibold text-white ring-1 ring-white/20 hover:bg-white/15">
+                Call (123) 456-7890
+              </a>
+            </div>
+
+            <div class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
+              <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
+                <div class="text-2xl font-bold">4.9★</div>
+                <div class="text-sm text-slate-200">Average rating</div>
+              </div>
+              <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
+                <div class="text-2xl font-bold">1,200+</div>
+                <div class="text-sm text-slate-200">Repairs completed</div>
+              </div>
+              <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
+                <div class="text-2xl font-bold">90-Day</div>
+                <div class="text-sm text-slate-200">Work warranty</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Booking Card -->
+          <div id="booking" class="rounded-3xl bg-white p-6 shadow-2xl ring-1 ring-slate-200 sm:p-8">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="text-xl font-bold">Book a Repair Visit</h2>
+                <p class="mt-1 text-sm text-slate-600">
+                  Get an estimate and schedule in minutes.
+                </p>
+              </div>
+              <span class="rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700 ring-1 ring-emerald-100">
+                Response within 15 min
+              </span>
+            </div>
+
+            <form class="mt-6 space-y-4" action="#" method="post">
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div>
+                  <label class="text-sm font-medium text-slate-700">First name</label>
+                  <input
+                    type="text"
+                    name="first_name"
+                    placeholder="Alex"
+                    class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-slate-200 focus:ring-4"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="text-sm font-medium text-slate-700">Last name</label>
+                  <input
+                    type="text"
+                    name="last_name"
+                    placeholder="Johnson"
+                    class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-slate-200 focus:ring-4"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label class="text-sm font-medium text-slate-700">Phone</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="(123) 456-7890"
+                  class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-slate-200 focus:ring-4"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="text-sm font-medium text-slate-700">Appliance type</label>
+                <select
+                  name="appliance"
+                  class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-slate-200 focus:ring-4"
+                  required
+                >
+                  <option value="" selected disabled>Select one</option>
+                  <option>Refrigerator</option>
+                  <option>Washer</option>
+                  <option>Dryer</option>
+                  <option>Oven / Range</option>
+                  <option>Dishwasher</option>
+                  <option>Microwave</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="text-sm font-medium text-slate-700">What’s going on?</label>
+                <textarea
+                  name="issue"
+                  rows="4"
+                  placeholder="Example: fridge not cooling, loud noise, error code..."
+                  class="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-slate-200 focus:ring-4"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white shadow hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-slate-200"
+              >
+                Request Appointment
+              </button>
+
+              <p class="text-center text-xs text-slate-500">
+                By submitting, you agree to be contacted about your request. No spam.
+              </p>
+            </form>
+
+            <div class="mt-6 grid gap-3 rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+              <div class="flex items-center justify-between text-sm">
+                <span class="font-medium text-slate-700">Service call</span>
+                <span class="font-semibold text-slate-900">$0–$89</span>
+              </div>
+              <div class="flex items-center justify-between text-sm">
+                <span class="font-medium text-slate-700">Diagnostic</span>
+                <span class="font-semibold text-slate-900">Included</span>
+              </div>
+              <div class="flex items-center justify-between text-sm">
+                <span class="font-medium text-slate-700">Warranty</span>
+                <span class="font-semibold text-slate-900">90 days</span>
+              </div>
+              <p class="text-xs text-slate-500">
+                Pricing varies by appliance and issue. You’ll get an upfront quote before any work begins.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logos / Brands -->
+    <section class="border-b border-slate-200 bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="grid items-center gap-6 md:grid-cols-2">
+          <div>
+            <h3 class="text-lg font-bold">We service most major brands</h3>
+            <p class="mt-2 text-sm text-slate-600">
+              Including Whirlpool, GE, Samsung, LG, Bosch, Frigidaire, KitchenAid, Maytag, and more.
+            </p>
+          </div>
+          <div class="grid grid-cols-3 gap-3 sm:grid-cols-4">
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">Whirlpool</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">GE</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">Samsung</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">LG</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">Bosch</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">Maytag</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">Frigidaire</div>
+            <div class="rounded-2xl bg-slate-50 p-3 text-center text-xs font-semibold text-slate-700 ring-1 ring-slate-200">KitchenAid</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-3xl font-extrabold">Appliance repair services</h2>
+        <p class="mt-3 text-slate-600">
+          From quick fixes to complex issues—we diagnose accurately and repair efficiently.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Card -->
+        <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
+          <img
+            src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80"
+            alt="Refrigerator repair"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-bold">Refrigerator Repair</h3>
+            <p class="mt-2 text-sm text-slate-600">Not cooling, leaking, ice maker issues, unusual noises, error codes.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+              <li>• Compressor & sealed system diagnostics</li>
+              <li>• Fan motors, thermostats, sensors</li>
+              <li>• Ice maker and water line issues</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
+          <img
+            src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1200&q=80"
+            alt="Washer and dryer repair"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-bold">Washer & Dryer Repair</h3>
+            <p class="mt-2 text-sm text-slate-600">Won’t spin, won’t drain, shaking, no heat, burning smell, loud banging.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+              <li>• Pumps, belts, bearings, door locks</li>
+              <li>• Heating elements and thermal fuses</li>
+              <li>• Control boards and sensors</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
+          <img
+            src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80"
+            alt="Kitchen oven"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-bold">Oven / Range Repair</h3>
+            <p class="mt-2 text-sm text-slate-600">Not heating, uneven baking, burner issues, sparks, display problems.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+              <li>• Igniters, elements, thermostats</li>
+              <li>• Gas & electric troubleshooting</li>
+              <li>• Control panels and wiring checks</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
+          <img
+            src="https://images.unsplash.com/photo-1598514982847-7c93b33b1bb3?auto=format&fit=crop&w=1200&q=80"
+            alt="Dishwasher"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-bold">Dishwasher Repair</h3>
+            <p class="mt-2 text-sm text-slate-600">Not draining, not cleaning, leaks, strange smells, error codes.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+              <li>• Pumps, spray arms, inlet valves</li>
+              <li>• Drain issues and clogs</li>
+              <li>• Door latches and seals</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
+          <img
+            src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80"
+            alt="Microwave"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-bold">Microwave Repair</h3>
+            <p class="mt-2 text-sm text-slate-600">Not heating, sparking, turntable not spinning, door issues.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+              <li>• Switches, fuses, door interlocks</li>
+              <li>• Noise and power issues</li>
+              <li>• Vent and over-the-range models</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-slate-200">
+          <img
+            src="https://images.unsplash.com/photo-1581579185169-7b0d8e1b4c55?auto=format&fit=crop&w=1200&q=80"
+            alt="Technician tools"
+            class="h-44 w-full object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-lg font-bold">Maintenance & Tune-Ups</h3>
+            <p class="mt-2 text-sm text-slate-600">Prevent breakdowns and extend appliance life with routine service.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700">
+              <li>• Cleaning, calibration, inspections</li>
+              <li>• Dryer vent airflow checks</li>
+              <li>• Leak prevention and safety review</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 flex justify-center">
+        <a href="#booking" class="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+          Schedule Service
+        </a>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="border-y border-slate-200 bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid items-center gap-10 lg:grid-cols-2">
+          <div>
+            <h2 class="text-3xl font-extrabold">How it works</h2>
+            <p class="mt-3 text-slate-600">
+              Simple, transparent, and fast—from first call to finished repair.
+            </p>
+
+            <div class="mt-8 space-y-5">
+              <div class="flex gap-4">
+                <div class="grid h-10 w-10 flex-none place-items-center rounded-xl bg-slate-900 text-white font-bold">1</div>
+                <div>
+                  <h3 class="font-bold">Tell us what’s happening</h3>
+                  <p class="mt-1 text-sm text-slate-600">Call or book online. Share the appliance type, brand, and symptoms.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="grid h-10 w-10 flex-none place-items-center rounded-xl bg-slate-900 text-white font-bold">2</div>
+                <div>
+                  <h3 class="font-bold">Diagnosis & upfront quote</h3>
+                  <p class="mt-1 text-sm text-slate-600">We identify the issue and provide a clear quote before repairs begin.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="grid h-10 w-10 flex-none place-items-center rounded-xl bg-slate-900 text-white font-bold">3</div>
+                <div>
+                  <h3 class="font-bold">Repair + warranty</h3>
+                  <p class="mt-1 text-sm text-slate-600">Most repairs are completed same-day. Parts & labor backed by warranty.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a href="#booking" class="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+                Book Online
+              </a>
+              <a href="tel:+11234567890" class="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-300 hover:bg-slate-50">
+                Call for Same-Day
+              </a>
+            </div>
+          </div>
+
+          <div class="overflow-hidden rounded-3xl bg-slate-100 ring-1 ring-slate-200">
+            <img
+              src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1400&q=80"
+              alt="Repair visit"
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-3xl font-extrabold">Customers love our service</h2>
+        <p class="mt-3 text-slate-600">
+          Real-world repairs. Real peace of mind.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        <figure class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+          <div class="text-sm font-semibold">“Fixed my fridge the same day.”</div>
+          <p class="mt-3 text-sm text-slate-600">
+            The tech arrived on time, explained the problem, and had parts ready. Clear pricing and super professional.
+          </p>
+          <figcaption class="mt-4 text-sm text-slate-500">
+            — Jamie R., Refrigerator Repair
+          </figcaption>
+        </figure>
+
+        <figure class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+          <div class="text-sm font-semibold">“Upfront quote, no surprises.”</div>
+          <p class="mt-3 text-sm text-slate-600">
+            My dryer wasn’t heating. They diagnosed it quickly and told me the cost before doing anything. Great experience.
+          </p>
+          <figcaption class="mt-4 text-sm text-slate-500">
+            — Taylor M., Dryer Repair
+          </figcaption>
+        </figure>
+
+        <figure class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+          <div class="text-sm font-semibold">“Clean, careful, and fast.”</div>
+          <p class="mt-3 text-sm text-slate-600">
+            They treated my kitchen like it was their own and finished the dishwasher repair in under an hour.
+          </p>
+          <figcaption class="mt-4 text-sm text-slate-500">
+            — Chris A., Dishwasher Repair
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="mt-10 flex justify-center">
+        <a href="#booking" class="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+          Get Your Estimate
+        </a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
+          <div>
+            <h2 class="text-3xl font-extrabold">FAQ</h2>
+            <p class="mt-3 text-slate-600">
+              Quick answers to common questions.
+            </p>
+
+            <div class="mt-8 space-y-4">
+              <details class="group rounded-2xl border border-slate-200 bg-white p-5">
+                <summary class="cursor-pointer list-none font-semibold text-slate-900">
+                  Do you offer same-day service?
+                  <span class="float-right text-slate-400 group-open:rotate-180">⌄</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">
+                  Yes—when availability allows. Call early for the best chance of a same-day appointment.
+                </p>
+              </details>
+
+              <details class="group rounded-2xl border border-slate-200 bg-white p-5">
+                <summary class="cursor-pointer list-none font-semibold text-slate-900">
+                  Do you provide an estimate before starting?
+                  <span class="float-right text-slate-400 group-open:rotate-180">⌄</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">
+                  Always. We diagnose first, then provide an upfront quote. No work begins without your approval.
+                </p>
+              </details>
+
+              <details class="group rounded-2xl border border-slate-200 bg-white p-5">
+                <summary class="cursor-pointer list-none font-semibold text-slate-900">
+                  Is there a warranty?
+                  <span class="float-right text-slate-400 group-open:rotate-180">⌄</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">
+                  Yes. Repairs are backed by a warranty on parts and labor (terms may vary by job).
+                </p>
+              </details>
+
+              <details class="group rounded-2xl border border-slate-200 bg-white p-5">
+                <summary class="cursor-pointer list-none font-semibold text-slate-900">
+                  What areas do you serve?
+                  <span class="float-right text-slate-400 group-open:rotate-180">⌄</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">
+                  We serve the local metro area and nearby suburbs. Call to confirm your zip code.
+                </p>
+              </details>
+            </div>
+          </div>
+
+          <div class="rounded-3xl bg-slate-900 p-8 text-white">
+            <h3 class="text-2xl font-extrabold">Ready to fix it today?</h3>
+            <p class="mt-3 text-slate-200">
+              Book online or call now. We’ll confirm your appointment and get your appliance back to normal.
+            </p>
+
+            <div class="mt-6 grid gap-3 sm:grid-cols-2">
+              <a href="tel:+11234567890" class="rounded-2xl bg-white px-5 py-3 text-center text-sm font-semibold text-slate-900 hover:bg-slate-100">
+                Call (123) 456-7890
+              </a>
+              <a href="#booking" class="rounded-2xl bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white ring-1 ring-white/20 hover:bg-white/15">
+                Book Online
+              </a>
+            </div>
+
+            <div class="mt-8 border-t border-white/10 pt-6 text-sm text-slate-200">
+              <div class="flex items-center justify-between">
+                <span>Hours</span>
+                <span class="font-semibold">Mon–Sat, 8am–7pm</span>
+              </div>
+              <div class="mt-2 flex items-center justify-between">
+                <span>Emergency slots</span>
+                <span class="font-semibold">Limited daily</span>
+              </div>
+              <div class="mt-2 flex items-center justify-between">
+                <span>Payment</span>
+                <span class="font-semibold">Card • Cash • Zelle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 bg-slate-50">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="grid gap-8 md:grid-cols-2 md:items-center">
+          <div>
+            <div class="flex items-center gap-2">
+              <div class="grid h-10 w-10 place-items-center rounded-xl bg-slate-900 text-white">
+                <span class="text-lg font-bold">AR</span>
+              </div>
+              <div class="font-semibold">Appliance Repair</div>
+            </div>
+            <p class="mt-3 text-sm text-slate-600">
+              Fast, local service with upfront pricing and warranty-backed repairs.
+            </p>
+            <p class="mt-3 text-xs text-slate-500">
+              © <span id="year"></span> Appliance Repair. All rights reserved.
+            </p>
+          </div>
+
+          <div class="rounded-3xl bg-white p-6 ring-1 ring-slate-200">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <div class="text-sm font-semibold">Need help now?</div>
+                <div class="text-xs text-slate-600">Call for same-day availability.</div>
+              </div>
+              <a href="tel:+11234567890" class="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                Call (123) 456-7890
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
